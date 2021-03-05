@@ -38,15 +38,20 @@ export default {
 ul li{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     padding:20px;
 }
 
+p{
+font-size: 26px;
+
+}
 .checked{
     color: red;
     text-decoration: line-through;
 }
 i{
+    font-size: 40px;
     color:red;
 }
 </style>

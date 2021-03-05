@@ -2,7 +2,7 @@
     <div id="app">
 <label for="ajouter"></label>
 <input placeholder="ajouter votre tache ..." v-model="taskName" name="Ajouter">
-<button v-on:click=sendTask><span>+</span></button>
+<button v-on:click=sendTask><i class="fas fa-plus-circle"></i></button>
     </div>
 </template>
 
@@ -27,11 +27,8 @@ export default {
 
 <style scoped>
 button{
-    border-radius: 50%;
-    height: 50px;
-     width: 50px;
-     background-color: #48C774;
-     border: none;
+   border: none;
+   background-color: white;
 }
 input{
     border: white;
@@ -40,10 +37,13 @@ input{
     width: 200px;
     
 }
-button span{
-    font-size: 20px;
-    color:white;
+
+i{
     
+    color:#48C774;
+     font-size: 50px;
+    
+
 }
 input::placeholder{
     color: #D9D9D9;
